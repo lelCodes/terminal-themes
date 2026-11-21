@@ -3,7 +3,7 @@ import * as api from "./index";
 
 // The exports map is the package's public contract — a rename or a dropped
 // re-export here breaks every consuming site at once, so the surface is pinned.
-describe("@lvucodes/ui public API", () => {
+describe("@lelcodes/ui public API", () => {
   it("exposes the components, hooks, and theme core", () => {
     const expected = [
       "BackLink",

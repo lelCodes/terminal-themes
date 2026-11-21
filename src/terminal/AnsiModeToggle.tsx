@@ -1,7 +1,7 @@
 // Terminal Themes. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.
 
 import "./AnsiModeToggle.css";
-import type { AnsiMode } from "@lvucodes/ui";
+import type { AnsiMode } from "@lelcodes/ui";
 
 // Switches which half of the ANSI palette the panel draws from: Dark uses the
 // bright slots (8–15), Light the normal slots (0–7). Each segment renders three

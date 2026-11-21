@@ -21,7 +21,7 @@ import { createRoot } from "react-dom/client";
 // and dropped the barrel's own CSS import, shipping a site with no colour
 // tokens; the package's own sideEffects field protects it now, but the entry
 // import stays as the belt-and-braces guard (pinned by bundling.test.ts).
-import "@lvucodes/ui/theme.css";
+import "@lelcodes/ui/theme.css";
 import "./index.css";
 import App from "./App.tsx";
 

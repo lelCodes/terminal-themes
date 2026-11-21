@@ -1,6 +1,6 @@
 # Terminal theme + ANSI color module
 
-A self-contained theming system, shipped as part of `@lvucodes/ui`: ten macOS-Terminal-inspired palettes, an ANSI-style categorical color ramp for indexed swatches, a switcher UI, and `localStorage` persistence. No dependency on the host app — the React binding is a thin layer over a framework-agnostic core, and the palettes are plain CSS custom properties applied via `<html data-theme>`.
+A self-contained theming system, shipped as part of `@lelcodes/ui`: ten macOS-Terminal-inspired palettes, an ANSI-style categorical color ramp for indexed swatches, a switcher UI, and `localStorage` persistence. No dependency on the host app — the React binding is a thin layer over a framework-agnostic core, and the palettes are plain CSS custom properties applied via `<html data-theme>`.
 
 ## Files
 
@@ -15,7 +15,7 @@ A self-contained theming system, shipped as part of `@lvucodes/ui`: ten macOS-Te
 ## Usage (React)
 
 ```tsx
-import { useTheme, ThemeSwitcher } from "@lvucodes/ui";
+import { useTheme, ThemeSwitcher } from "@lelcodes/ui";
 
 function App() {
   const [theme, setTheme] = useTheme(); // reads storage, syncs <html data-theme>
@@ -31,8 +31,8 @@ function App() {
 ## Usage (no framework)
 
 ```ts
-import { applyTheme, loadTheme } from "@lvucodes/ui";
-import "@lvucodes/ui/theme.css";
+import { applyTheme, loadTheme } from "@lelcodes/ui";
+import "@lelcodes/ui/theme.css";
 
 applyTheme(loadTheme()); // apply the persisted (or default) theme on boot
 // later, from a control: applyTheme("ocean");

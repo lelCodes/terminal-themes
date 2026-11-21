@@ -9,18 +9,18 @@
   "sideEffects": [
     "**/*.css"
   ],
-  "prettier": "@lvucodes/ui/prettier",
+  "prettier": "@lelcodes/ui/prettier",
   "scripts": {
-    "predev": "npm run build -w @lvucodes/ui",
+    "predev": "npm run build -w @lelcodes/ui",
     "dev": "vite --open",
-    "build": "npm run build -w @lvucodes/ui && tsc -b && vite build",
-    "verify": "npm run verify -w @lvucodes/ui && npm run lint && npm run format:check && npm test && npm run build",
+    "build": "npm run build -w @lelcodes/ui && tsc -b && vite build",
+    "verify": "npm run verify -w @lelcodes/ui && npm run lint && npm run format:check && npm test && npm run build",
     "prepare": "git config core.hooksPath .githooks",
     "lint": "eslint . && stylelint \"**/*.css\"",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "preview": "vite preview",
-    "pretest": "npm run build -w @lvucodes/ui",
+    "pretest": "npm run build -w @lelcodes/ui",
     "test": "vitest run",
     "test:watch": "vitest watch",
     "test:verbose": "vitest run --reporter=verbose",
@@ -29,7 +29,7 @@
     "smoke": "playwright test"
   },
   "dependencies": {
-    "@lvucodes/ui": "^0.1.0",
+    "@lelcodes/ui": "^0.2.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   },

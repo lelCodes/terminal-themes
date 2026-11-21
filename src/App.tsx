@@ -1,7 +1,7 @@
 // Terminal Themes. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.
 
 import "./App.css";
-import { BackLink, Card, FooterCredits, ThemeSwitcher, useAnsiMode, useTheme } from "@lvucodes/ui";
+import { BackLink, Card, FooterCredits, ThemeSwitcher, useAnsiMode, useTheme } from "@lelcodes/ui";
 import { Terminal } from "./terminal";
 
 const SURFACE_TOKENS = [

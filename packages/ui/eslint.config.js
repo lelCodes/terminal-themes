@@ -1,10 +1,10 @@
 // Terminal Themes. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.
 //
 // Shared eslint flat config for the lelcodes.github.io sites, exported as
-// @lvucodes/ui/eslint. Consumers re-export it, optionally composing extra
+// @lelcodes/ui/eslint. Consumers re-export it, optionally composing extra
 // ignores or overrides around the spread array:
 //
-//   import lelcodes from "@lvucodes/ui/eslint";
+//   import lelcodes from "@lelcodes/ui/eslint";
 //   export default lelcodes;
 import js from "@eslint/js";
 import globals from "globals";

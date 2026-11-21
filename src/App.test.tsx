@@ -3,7 +3,7 @@ import { afterEach, describe, expect, it } from "vitest";
 import { cleanup, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import App from "./App";
-import { DEFAULT_THEME, THEMES, THEME_STORAGE_KEY } from "@lvucodes/ui";
+import { DEFAULT_THEME, THEMES, THEME_STORAGE_KEY } from "@lelcodes/ui";
 
 // RTL's automatic cleanup only runs under vitest `globals: true`; unmount
 // explicitly so renders don't stack across tests.

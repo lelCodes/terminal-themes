@@ -17,7 +17,7 @@ import { resolve } from "node:path";
 // the palette must be imported from the entry module, which is never shaken.
 describe("theme stylesheet bundling", () => {
   it("imports the palette from the entry module, not only the barrel", () => {
-    expect(mainSource).toMatch(/import\s+["']@lvucodes\/ui\/theme\.css["']/);
+    expect(mainSource).toMatch(/import\s+["']@lelcodes\/ui\/theme\.css["']/);
   });
 
   it("keeps the sideEffects allowlist that strips the dev folder", () => {
