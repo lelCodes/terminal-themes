@@ -60,9 +60,9 @@ describe("App", () => {
 
     const links = [...footer.querySelectorAll("a")];
     expect(links.map((a) => a.getAttribute("href"))).toEqual([
-      "https://github.com/lvuCodes",
-      "https://github.com/lvuCodes/terminal-themes/blob/main/LICENSE",
-      "https://github.com/lvuCodes/terminal-themes",
+      "https://github.com/lelCodes",
+      "https://github.com/lelCodes/terminal-themes/blob/main/LICENSE",
+      "https://github.com/lelCodes/terminal-themes",
     ]);
     expect(links[2].textContent).toBe("terminal-themes on GitHub");
     for (const a of links) {

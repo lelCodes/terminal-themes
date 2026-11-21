@@ -1,12 +1,12 @@
-// Terminal Themes. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.
+// Terminal Themes. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.
 
 import "./footer-credits.css";
 
 // Footer credits bar. Names the author and links the hosting repo's own
 // licence, so each consuming site passes the URL of its own LICENSE file.
 // An optional repoHref adds a link to the consuming project's own source.
-export const DEFAULT_OWNER = "lvuCodes";
-export const DEFAULT_OWNER_HREF = "https://github.com/lvuCodes";
+export const DEFAULT_OWNER = "lelCodes";
+export const DEFAULT_OWNER_HREF = "https://github.com/lelCodes";
 export const DEFAULT_LICENSE_LABEL = "GNU GPL v3";
 
 export function FooterCredits({

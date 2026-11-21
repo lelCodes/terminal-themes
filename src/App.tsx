@@ -1,4 +1,4 @@
-// Terminal Themes. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.
+// Terminal Themes. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.
 
 import "./App.css";
 import { BackLink, Card, FooterCredits, ThemeSwitcher, useAnsiMode, useTheme } from "@lvucodes/ui";
@@ -68,8 +68,8 @@ function App() {
       </Card>
 
       <FooterCredits
-        licenseHref="https://github.com/lvuCodes/terminal-themes/blob/main/LICENSE"
-        repoHref="https://github.com/lvuCodes/terminal-themes"
+        licenseHref="https://github.com/lelCodes/terminal-themes/blob/main/LICENSE"
+        repoHref="https://github.com/lelCodes/terminal-themes"
         repoLabel="terminal-themes on GitHub"
         year={2026}
       />

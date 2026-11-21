@@ -1,11 +1,11 @@
 name: Site CI
 
-# Reusable CI for every lvucodes.github.io site. Consumers invoke it from a
+# Reusable CI for every lelcodes.github.io site. Consumers invoke it from a
 # thin workflow:
 #
 #   jobs:
 #     site-ci:
-#       uses: lvuCodes/terminal-themes/.github/workflows/site-ci.yml@main
+#       uses: lelCodes/terminal-themes/.github/workflows/site-ci.yml@main
 #
 # Expects the repo to define `npm run verify` (the full local gate set) and
 # `npm run smoke` (the Playwright iPhone SE suite, building the site first).

@@ -1,6 +1,6 @@
 # terminal-themes
 
-Home of **[@lvucodes/ui](packages/ui/)** — the shared component library for the lvucodes.github.io sites — and its showcase site: ten macOS-Terminal-inspired palettes, an ANSI-style categorical ramp, a switcher UI, and `localStorage` persistence. The package's API, exports, and token contract are documented in [packages/ui/README.md](packages/ui/README.md) and [packages/ui/src/theme/README.md](packages/ui/src/theme/README.md).
+Home of **[@lvucodes/ui](packages/ui/)** — the shared component library for the lelcodes.github.io sites — and its showcase site: ten macOS-Terminal-inspired palettes, an ANSI-style categorical ramp, a switcher UI, and `localStorage` persistence. The package's API, exports, and token contract are documented in [packages/ui/README.md](packages/ui/README.md) and [packages/ui/src/theme/README.md](packages/ui/src/theme/README.md).
 
 ## Layout
 
@@ -39,6 +39,6 @@ See [AI-USAGE.md](AI-USAGE.md).
 
 ## License
 
-GNU General Public License v3.0 or later — see [LICENSE](LICENSE). Copyright © 2026 lvuCodes.
+GNU General Public License v3.0 or later — see [LICENSE](LICENSE). Copyright © 2026 lelCodes.
 
 Copyleft applies to the package as well: `@lvucodes/ui` is published under GPL-3.0-or-later, and a project that vendors it must also be licensed GPL-3.0-or-later and make its source available.

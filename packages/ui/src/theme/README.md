@@ -68,4 +68,4 @@ Either half can be forced onto any profile by setting `<html data-ansi-mode="dar
 
 ## Persistence
 
-The chosen theme is stored under `localStorage["mogo-theme"]` (`THEME_STORAGE_KEY` — shared across every site on the lvucodes.github.io origin, so one choice follows the visitor everywhere). Storage failures (e.g. `file://` origins, disabled storage) are swallowed: the theme still applies for the session, it just won't persist.
+The chosen theme is stored under `localStorage["mogo-theme"]` (`THEME_STORAGE_KEY` — shared across every site on the lelcodes.github.io origin, so one choice follows the visitor everywhere). Storage failures (e.g. `file://` origins, disabled storage) are swallowed: the theme still applies for the session, it just won't persist.

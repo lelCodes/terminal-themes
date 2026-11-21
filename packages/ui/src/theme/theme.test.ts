@@ -39,7 +39,7 @@ describe("THEMES catalog", () => {
       "novel",
       "silver-aerogel",
       "basic",
-      "lvucodes",
+      "lelcodes",
     ]);
     expect(DEFAULT_THEME).toBe("grass");
     expect(THEMES[0].id).toBe(DEFAULT_THEME);
@@ -110,10 +110,10 @@ describe("applyTheme", () => {
 });
 
 describe("seedDefaultTheme", () => {
-  it("seeds lvucodes into an empty slot", () => {
+  it("seeds lelcodes into an empty slot", () => {
     const store = stubStorage();
     seedDefaultTheme();
-    expect(store.get(THEME_STORAGE_KEY)).toBe("lvucodes");
+    expect(store.get(THEME_STORAGE_KEY)).toBe("lelcodes");
   });
 
   it("seeds the given theme and replaces an invalid stored value", () => {

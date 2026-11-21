@@ -1,4 +1,4 @@
-// Terminal Themes. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.
+// Terminal Themes. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.
 //
 // The ANSI slot catalog and the UI-role → slot map, kept as data so the panel
 // stays declarative and the mapping is assertable in tests.

@@ -1,4 +1,4 @@
-// Terminal Themes. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.
+// Terminal Themes. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.
 //
 // Test-only helpers for asserting on a component stylesheet's selectors. Shared
 // by every component whose skin must stay at zero specificity, so a consuming

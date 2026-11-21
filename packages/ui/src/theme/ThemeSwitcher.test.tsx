@@ -20,8 +20,8 @@ describe("ThemeSwitcher", () => {
   it("reports the picked theme to the caller", async () => {
     const onChange = vi.fn();
     render(<ThemeSwitcher theme="grass" onChange={onChange} />);
-    await userEvent.click(screen.getByRole("button", { name: "lvuCodes" }));
-    expect(onChange).toHaveBeenCalledWith("lvucodes");
+    await userEvent.click(screen.getByRole("button", { name: "lelCodes" }));
+    expect(onChange).toHaveBeenCalledWith("lelcodes");
   });
 
   it("shows the default caption, and drops it when passed an empty label", () => {

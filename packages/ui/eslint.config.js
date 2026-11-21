@@ -1,11 +1,11 @@
-// Terminal Themes. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.
+// Terminal Themes. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.
 //
-// Shared eslint flat config for the lvucodes.github.io sites, exported as
+// Shared eslint flat config for the lelcodes.github.io sites, exported as
 // @lvucodes/ui/eslint. Consumers re-export it, optionally composing extra
 // ignores or overrides around the spread array:
 //
-//   import lvucodes from "@lvucodes/ui/eslint";
-//   export default lvucodes;
+//   import lelcodes from "@lvucodes/ui/eslint";
+//   export default lelcodes;
 import js from "@eslint/js";
 import globals from "globals";
 import reactHooks from "eslint-plugin-react-hooks";

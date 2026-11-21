@@ -15,10 +15,10 @@ const THEME_BLOCKS = [
   "novel",
   "silver-aerogel",
   "basic",
-  "lvucodes",
+  "lelcodes",
 ];
 
-const LIGHT_THEMES = ["man-page", "novel", "silver-aerogel", "basic", "lvucodes"];
+const LIGHT_THEMES = ["man-page", "novel", "silver-aerogel", "basic", "lelcodes"];
 
 // Split the stylesheet into { selectorList, body } rules. Needed because several
 // ids appear in both their own block and a grouped override, so matching on the
@@ -101,8 +101,8 @@ describe("themes.css", () => {
     }
   });
 
-  it("draws the lvucodes palette from the logo colours on the Basic template", () => {
-    const block = ownBlock(themesCss, "lvucodes");
+  it("draws the lelcodes palette from the logo colours on the Basic template", () => {
+    const block = ownBlock(themesCss, "lelcodes");
     expect(block).toMatch(/--accent:\s*#0957fe/);
     expect(block).toMatch(/--text:\s*#41464f/);
     expect(block).toMatch(/--bg:\s*#f5f8ff/);

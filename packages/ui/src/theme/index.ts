@@ -1,4 +1,4 @@
-// Terminal Themes. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.
+// Terminal Themes. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.
 //
 // Terminal theme + ANSI color module. Import
 // from here and the palette stylesheet loads as a side effect, then use

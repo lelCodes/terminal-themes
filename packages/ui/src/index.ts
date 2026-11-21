@@ -1,6 +1,6 @@
-// Terminal Themes. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.
+// Terminal Themes. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.
 //
-// @lvucodes/ui — shared UI for the lvucodes.github.io sites. Every stylesheet
+// @lvucodes/ui — shared UI for the lelcodes.github.io sites. Every stylesheet
 // is imported by the component that wears it, never by this barrel: a barrel
 // side-effect import gets tree-shaken in workspace builds even with the
 // sideEffects globs (Rollup skips them for symlinked source), which is how the

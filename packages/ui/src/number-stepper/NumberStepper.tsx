@@ -1,4 +1,4 @@
-// Terminal Themes. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.
+// Terminal Themes. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.
 
 import { useId, useState, type CSSProperties, type ComponentProps } from "react";
 import "./number-stepper.css";

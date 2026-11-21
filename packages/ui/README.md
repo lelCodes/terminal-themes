@@ -1,8 +1,8 @@
 # @lvucodes/ui
 
-Shared UI for the [lvucodes.github.io](https://lvucodes.github.io) family of sites. **Personal infrastructure** — published publicly so the sites can install it from npm, but versioned and evolved for exactly those consumers; no stability promises are made to anyone else.
+Shared UI for the [lelcodes.github.io](https://lelcodes.github.io) family of sites. **Personal infrastructure** — published publicly so the sites can install it from npm, but versioned and evolved for exactly those consumers; no stability promises are made to anyone else.
 
-Lives in the [terminal-themes](https://github.com/lvuCodes/terminal-themes) repo alongside its showcase site. GPL-3.0-or-later.
+Lives in the [terminal-themes](https://github.com/lelCodes/terminal-themes) repo alongside its showcase site. GPL-3.0-or-later.
 
 ## Contents
 
@@ -27,7 +27,7 @@ function App() {
       <BackLink />
       <ThemeSwitcher theme={theme} onChange={setTheme} />
       {/* … */}
-      <FooterCredits licenseHref="https://github.com/lvuCodes/<repo>/blob/main/LICENSE" />
+      <FooterCredits licenseHref="https://github.com/lelCodes/<repo>/blob/main/LICENSE" />
     </main>
   );
 }
@@ -35,16 +35,16 @@ function App() {
 
 `FooterCredits` takes an optional `repoHref` (with `repoLabel`, default "Source code") that adds a link to the project's own repository inside the copyright line, after the licence sentence. Name the repository in the label (`"<repo> on GitHub"`) so it reads apart from the owner link. Omitting `repoHref` renders the footer unchanged.
 
-`seedDefaultTheme(theme = "lvucodes")` seeds a site's default theme before `useTheme()` reads it: call it once in `main.tsx` before rendering. It writes only when the shared storage slot is empty or invalid, so a theme the visitor picked on another site is kept.
+`seedDefaultTheme(theme = "lelcodes")` seeds a site's default theme before `useTheme()` reads it: call it once in `main.tsx` before rendering. It writes only when the shared storage slot is empty or invalid, so a theme the visitor picked on another site is kept.
 
-The token contract (`--bg`, `--panel`, `--text`, `--accent`, `--item-0…10`, the ANSI slots) is documented in [the theme module README](https://github.com/lvuCodes/terminal-themes/blob/main/packages/ui/src/theme/README.md). `BackLink` renders at `position: absolute; top: 20px; left: 20px` against the document, so the page needs no positioned wrapper.
+The token contract (`--bg`, `--panel`, `--text`, `--accent`, `--item-0…10`, the ANSI slots) is documented in [the theme module README](https://github.com/lelCodes/terminal-themes/blob/main/packages/ui/src/theme/README.md). `BackLink` renders at `position: absolute; top: 20px; left: 20px` against the document, so the page needs no positioned wrapper.
 
 Lint config wiring in a consumer:
 
 ```js
 // eslint.config.js
-import lvucodes from "@lvucodes/ui/eslint";
-export default lvucodes;
+import lelcodes from "@lvucodes/ui/eslint";
+export default lelcodes;
 ```
 
 ```json

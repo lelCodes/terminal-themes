@@ -87,7 +87,7 @@
 [data-theme="novel"],
 [data-theme="silver-aerogel"],
 [data-theme="basic"],
-[data-theme="lvucodes"] {
+[data-theme="lelcodes"] {
   --ansi-ui-red: var(--ansi-1);
   --ansi-ui-green: var(--ansi-2);
   --ansi-ui-yellow: var(--ansi-3);
@@ -223,7 +223,7 @@
 /* The house theme: Basic as the template, tinted from the cat logo. Surfaces
    take the logo's cornflower field (#6d9eff), text keeps Basic's neutral grey
    with a cool blue cast, and the accent is the flower blue (#0957fe). */
-[data-theme="lvucodes"] {
+[data-theme="lelcodes"] {
   color-scheme: light;
   --bg: #f5f8ff;
   --panel: #e6eeff;
@@ -241,7 +241,7 @@
 [data-theme="novel"],
 [data-theme="silver-aerogel"],
 [data-theme="basic"],
-[data-theme="lvucodes"] {
+[data-theme="lelcodes"] {
   --item-0: #1565c0;  /* blue */
   --item-1: #8a6d00;  /* dark gold */
   --item-2: #c2185b;  /* magenta */

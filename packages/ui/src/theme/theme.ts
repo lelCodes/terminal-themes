@@ -1,4 +1,4 @@
-// Terminal Themes. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.
+// Terminal Themes. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.
 //
 // Terminal-inspired theme system — framework-agnostic core. The palettes
 // themselves live in themes.css as [data-theme] blocks; this module owns the
@@ -16,7 +16,7 @@ export type ThemeId =
   | "novel"
   | "silver-aerogel"
   | "basic"
-  | "lvucodes";
+  | "lelcodes";
 
 export interface ThemeOption {
   id: ThemeId;
@@ -35,7 +35,7 @@ export const THEMES: readonly ThemeOption[] = [
   { id: "novel", label: "Novel" },
   { id: "silver-aerogel", label: "Silver" },
   { id: "basic", label: "Basic" },
-  { id: "lvucodes", label: "lvuCodes" },
+  { id: "lelcodes", label: "lelCodes" },
 ];
 
 export const DEFAULT_THEME: ThemeId = "grass";
@@ -75,7 +75,7 @@ export function saveTheme(theme: ThemeId): void {
 // existing choice. The storage key is shared across every site on the origin,
 // so a visitor who already picked a theme elsewhere keeps it; only an empty,
 // invalid, or unreadable slot is set before useTheme() reads it.
-export function seedDefaultTheme(theme: ThemeId = "lvucodes"): void {
+export function seedDefaultTheme(theme: ThemeId = "lelcodes"): void {
   let stored: string | null;
   try {
     stored = localStorage.getItem(THEME_STORAGE_KEY);
@@ -106,7 +106,7 @@ export const LIGHT_THEMES: readonly ThemeId[] = [
   "novel",
   "silver-aerogel",
   "basic",
-  "lvucodes",
+  "lelcodes",
 ];
 
 // The half a profile uses when nothing is forced — the default the CSS already
